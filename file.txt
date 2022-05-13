@@ -26,3 +26,18 @@ check created git file     = ls -alt
 recover any mistaken changes= git checkout fileName
 recover multiple files      = git checkout -f
 -------------------------------------------------
+removes from staged area
+remove mistaken added file  = git rm --cached <file name>
+remove from current directory= git rm <file name>
+-------------------------------------------------
+
+show all files in current directory= ls
+------------------------------------------------
+generate sshkey               = ssh-keygen -t rsa -b 4096 -C "email ID"
+enter a phrase, "not visible in gitbash",  ----remember--myssh-- this---
+
+esure ssh agent running       = eval $(ssh-agent)
+add ssh private key to ssh agent= ssh-add ~/.ssh/id_rsa
+
+---------------------------------------------------------- 
+add public key to github account=  clip < ~/.ssh/id_rsa.pub
