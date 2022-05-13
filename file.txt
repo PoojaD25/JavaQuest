@@ -8,4 +8,11 @@ configure git            =  git config --global user.email " give email ID"
 
 add file to track by git =  git add file.txt
 check status             =  git status
+commit file to move to stage= git commit
+
+--------press i > Initial commit > esc > :wq-----------
+
+ ----------or-------------
+command:  git commit -m "any message you want to add"
+
 initialize git repository=  git init
