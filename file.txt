@@ -1,2 +1,11 @@
 Hi i am Pooja.
 Welcome to learning git-hub.
+
+command:
+
+configure username       =  git config --global user.name "give Git username"
+configure git            =  git config --global user.email " give email ID"
+
+add file to track by git =  git add file.txt
+check status             =  git status
+initialize git repository=  git init
