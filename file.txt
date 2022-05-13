@@ -9,7 +9,7 @@ configure username       =  git config --global user.name "give Git username"
 configure git            =  git config --global user.email " give email ID"
 --------------------------------------------------
 add file to track by git =  git add file.txt
-add mutilple files       =  git add -A
+add mutilple files       =  git add -A  ----0r ----- git add .
 ---------------------------------------------
 check status             =  git status
 ---------------------------------------------
