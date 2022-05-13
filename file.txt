@@ -22,6 +22,11 @@ command:  git commit -m "any message you want to add"
 ----------------------------------------------
 initialize git repository  =  git init
 check created git file     = ls -alt
+---------------------------------------------
+add git repo url            = git remote add UrlName<url> 
+urlName as per wish by default its "origin master"
+
+check added repo            = git remote -v
 -------------------------------------------------
 recover any mistaken changes= git checkout fileName
 recover multiple files      = git checkout -f
