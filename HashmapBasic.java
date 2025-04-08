@@ -14,7 +14,7 @@ public class HashmapBasic {
         //iterate over key
 
         Set<String> KeyData=friuts.keySet();
-        System.out.println("Set of key ketSet(): "+KeyData);
+        System.out.println("Set of key keySet(): "+KeyData);
 
         Iterator <String >it= friuts.keySet().iterator();
         while(it.hasNext())
